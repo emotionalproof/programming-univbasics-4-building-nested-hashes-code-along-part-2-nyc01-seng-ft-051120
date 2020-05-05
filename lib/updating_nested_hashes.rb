@@ -22,15 +22,7 @@ def update_status
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
-  epic_tragedy.each do |family_hash|
-    family_hash.each do |person|
-      if person == :hero
-        :hero[:status] = "dead"
-      elsif person == :heroine
-        :heroine[:status] = "dead"
-      end
-    end
-  end
+  epic_tragedy[:montague][:hero][:status] = "dead"
 
 
 
