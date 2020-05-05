@@ -24,7 +24,7 @@ def update_status
   # Code your solution here:
   epic_tragedy.each do |family_hash|
     family_hash.each do |person|
-      if person.key == :hero
+      if person == :hero
         :hero[:status] = "dead"
       elsif person.key == :heroine
         :hero[:status] = "dead"        
