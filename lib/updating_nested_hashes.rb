@@ -27,7 +27,7 @@ def update_status
       if person == :hero
         :hero[:status] = "dead"
       elsif person == :heroine
-        :hero[:status] = "dead"
+        :heroine[:status] = "dead"
       end
     end
   end
