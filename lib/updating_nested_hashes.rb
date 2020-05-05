@@ -26,7 +26,7 @@ def update_status
     family_hash.each do |person|
       if person == :hero
         :hero[:status] = "dead"
-      elsif person.key == :heroine
+      elsif person == :heroine
         :hero[:status] = "dead"
       end
     end
